@@ -1,0 +1,9 @@
+def somar_elementos(lista):
+    soma = 0
+    for elemento in lista:
+        soma += elemento
+    return soma
+
+numeros = [1, 2, 3, 4, 5]
+total = somar_elementos(numeros)
+print(total) # Resposta: 15
